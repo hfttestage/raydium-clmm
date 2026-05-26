@@ -312,7 +312,6 @@ pub fn is_supported_mint(
             && e != ExtensionType::MetadataPointer
             && e != ExtensionType::TokenMetadata
             && e != ExtensionType::InterestBearingConfig
-            && e != ExtensionType::ScaledUiAmount
         {
             return Ok(false);
         }
